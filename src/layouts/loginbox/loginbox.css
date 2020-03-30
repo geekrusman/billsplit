@@ -1,0 +1,50 @@
+.logincontainer
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 10fr;
+	width:100%;
+	height:100%;
+}
+
+.rendertitlecontainer
+{
+	display:grid;
+	grid-template-columns: 0.4fr 1fr 2fr;
+	margin:0.2em;
+
+}
+
+.renderfieldscontainer
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logintitlecontainer {
+	margin: 0.5em;
+}
+
+.signuptitlecontainer {
+	margin: 0.5em;
+
+}
+
+.extraspacetitlecontainer
+{
+
+}
+
+.titlelabel
+{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size:1.1em;
+	transition-duration: 0.3s;
+
+}
+
+.titlelabel:hover
+{
+	color: #ff5e6c;
+}

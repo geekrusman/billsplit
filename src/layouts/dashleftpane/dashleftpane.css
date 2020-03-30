@@ -1,0 +1,40 @@
+.dashleftpane
+{
+	height:100%;
+	width:100%;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 15fr;
+
+}
+
+.iconlabelcontainer
+{
+	margin:0.2em;
+}
+
+.iconlabel
+{
+
+}
+
+.iconlabel:hover
+{
+	font-weight: medium;
+	color:#ff5e6c;
+}
+
+.iconcontainer
+{
+	display:grid;
+	margin:0.2em;
+	grid-template-columns: 1fr 8fr;
+	grid-template-rows: 1fr;
+	transition-duration: 0.3s
+
+}
+
+.iconcontainer:hover{
+	fill:#ff5e6c;
+	color: #ff5e6c;
+}

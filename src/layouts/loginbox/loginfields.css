@@ -1,0 +1,56 @@
+.loginfield
+{
+	margin: 0.75em;
+}
+
+.buttonfield
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+
+}
+
+.buttoncontainer
+{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	margin: 0.5em;
+}
+
+.button
+{
+	height:100%;
+	width:100%;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size:1em;
+	transition-duration: 0.3s;
+	background-color: #fff5d7;
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+}
+
+.button:hover
+{
+	color:white;
+	background-color: #ff5e6c;
+
+}
+
+
+.textfield
+{
+	height:80%;
+	width:100%;
+	font-size: 0.9em;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size:1em;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+}
